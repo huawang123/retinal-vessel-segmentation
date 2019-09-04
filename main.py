@@ -12,9 +12,8 @@ sys.path.append(father_dir)
 
 from srcipt.SUnet import small_UNet
 from srcipt.prepare_data import prepare_data
-from srcipt.metrics import hard_dice_coe
+from srcipt.metrics import *
 from srcipt.record_db import start_expr
-from srcipt.utils import *
 from srcipt.layers import *
 
 _join = os.path.join
