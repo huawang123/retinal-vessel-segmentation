@@ -27,11 +27,11 @@ The details in DRIVE:
 1. Download and extract [DRIVE](http://www.isi.uu.nl/Research/Databases/DRIVE/) file in fold './data'
 2. Training 
 
-    ```python3 main --data_type=DRIVE --train=True --Restore=False```
+    ```python3 main.py --data_type=DRIVE --train=True --Restore=False```
 
 2. Test
 
-    ```python3 main --data_type=DRIVE --train=False --Restore=True --load_checkpoint=log_dir```
+    ```python3 main.py --data_type=DRIVE --train=False --Restore=True --load_checkpoint=log_dir```
 
 The CHASE_DB1 is same with DRIVE. but the TONGREN needs to convert png format from png use convert.py firstly.
 
