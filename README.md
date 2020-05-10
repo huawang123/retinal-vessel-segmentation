@@ -28,6 +28,13 @@ The details in DRIVE:
 2. Training 
 
     ```python3 main --data_type=DRIVE --train=True --Restore=False```
+    ```python3 main.py --data_type=DRIVE --train==True --Restore=False
+       usage: main.py [-h] [--data_type DATA_TYPE] [--fold FOLD]
+               [--log_directory LOG_DIRECTORY] [--batch_size BATCH_SIZE]
+               [--n_epoches N_EPOCHES] [--learning_rate LEARNING_RATE]
+               [--early_stopping_max_checks EARLY_STOPPING_MAX_CHECKS]
+               [--train] [--Restore] [--load_checkpoint LOAD_CHECKPOINT]
+    ```
 
 2. Test
 
