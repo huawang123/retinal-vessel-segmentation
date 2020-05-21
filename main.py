@@ -46,9 +46,9 @@ def main(argv):
     parser.add_argument('--early_stopping_max_checks', type=int, default=100,
                         help='Max checks without improvement for early stopping')
 
-    parser.add_argument('--train', action='bool', default=True,
+    parser.add_argument('--train', type='bool', default=True,
                         help='Set to True to train network')
-    parser.add_argument('--Restore', action='bool', default=True,
+    parser.add_argument('--Restore', type='bool', default=True,
                         help='Set to True to continue train network')
     parser.add_argument('--load_checkpoint', type=str,
                         default='/home/wanghua/wh/vessel/log_c/small_UNet_20/model/model.ckpt-52',
